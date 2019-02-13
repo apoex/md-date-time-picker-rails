@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kai Park"]
-  s.date = Date.today.to_s
   s.description = %q{Migration md-date-time-picker to rails Gem}
   s.email = %q{ggogun@gmail.com}
   s.files = `git ls-files -- {bin,lib,test,vendor}/* {LICENSE*,Rakefile,README*}`.split("\n")
